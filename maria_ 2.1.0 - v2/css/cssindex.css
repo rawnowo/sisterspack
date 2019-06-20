@@ -15,7 +15,8 @@
 
 body{
 	width: 100%;
-	height: 1333px;
+	/* height: 1333px; */
+	height: 100vh;
 	background: white;
   margin: 10px;
 }
@@ -39,8 +40,8 @@ header{
 
   }
   
-  .navbar-light .navbar-nav .nav-link {
-    color: #1585BC;
+.navbar-light .navbar-nav .nav-link {
+  color: #1585BC;
 }
 .bg-light {
   background-color: white !important;
@@ -126,7 +127,7 @@ ul {
   list-style-type:none;
   margin:0;
   padding:10px;
-  position: absolute;
+  /* position: absolute; */
 }
 /*Create a horizontal list with spacing*/
 li {
@@ -204,7 +205,7 @@ input[type=checkbox]:checked ~ #menu{
   display: block;
 } 
 /*Responsive Styles*/
-@media screen  and (max-width : 760px){
+@media screen  and (max-width : 991.98px){
   /*Make dropdown links appear inline*/
   ul {
       position: static;
